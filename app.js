@@ -129,3 +129,20 @@ render();
 }
 
 render
+function resetToday(){
+
+let pass=prompt('店舗暗証番号');
+
+if(pass!==STAFF_PASS){
+
+alert('暗証番号が違います');
+
+return;
+
+}
+
+localStorage.removeItem('lastStampDate');
+
+alert('本日の制限を解除しました');
+
+}
