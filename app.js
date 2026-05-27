@@ -32,7 +32,7 @@ let reward='来店してスタンプを集めよう！';
 
 if(stamps>=30){
 
-reward='🎉 裏メニューサービス！';
+reward='🎉 裏メニューが注文できます！';
 
 }else if(stamps>=20){
 
