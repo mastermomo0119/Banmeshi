@@ -1,14 +1,55 @@
-ばんめし桃栗亭
-海賊団 常連化システム
-スタンプカード
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ばんめし桃栗亭 常連化システム</title>
 
+<link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+
+<header class="hero">
+<h1>ばんめし桃栗亭</h1>
+<p>海賊団 常連化システム</p>
+</header>
+
+<section class="panel">
+<h2>🏴‍☠️ スタンプカード</h2>
+
+<div class="stamps" id="stamps"></div>
+
+<div id="reward"></div>
+
+<button onclick="addStamp()">
 スタンプGET
-海賊ランク
+</button>
+</section>
 
+<section class="panel">
+<h2>⚓ 海賊ランク</h2>
 
+<div id="rank"></div>
+
+<div id="visit"></div>
+
+<button onclick="addVisit()">
 来店カウント
-特典
-	•	10個 → 枝豆サービス
-	•	20個 → ドリンク1杯無料
-	•	30個 → 裏メニューサービス
+</button>
+</section>
+
+<section class="panel">
+<h2>🎁 特典一覧</h2>
+
+<ul>
+<li>10個 → 枝豆サービス</li>
+<li>20個 → ドリンク1杯無料</li>
+<li>30個 → 裏メニューサービス</li>
+</ul>
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
